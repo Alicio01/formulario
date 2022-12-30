@@ -1,0 +1,125 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;;
+    margin: 50px auto;
+    border-radius: 2%;
+}
+/*================ CABEÇALHO ====================*/
+.header{
+    text-align: center;
+
+ 
+}
+
+#title{
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#description{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+/* ============FORMULÁRIO=================== */
+
+#survey-form{
+    margin: 20px 20px;
+    display: block;
+    border-top: 3px solid gray;
+}
+#input-texto{
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+#name, #email, #idade{
+    width: 99%;
+    border: 1px solid white;
+    height: 2.5rem;
+}
+
+.form-group{
+    padding-top: 20px;
+
+}
+
+.p-formulario{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-select, .form-radio{
+    border-top: 3px solid gray;
+    margin-top: 20px;
+}
+
+#dropdown{
+    width: 99%;
+    height: 2.5rem;
+    border: 1px solid white;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    
+}
+
+.input-radio{
+   display: inline-block;
+   vertical-align: middle;
+   margin: 20px 0;
+   
+}
+
+.radio-descricao{
+    font-size: 1.2rem;
+}
+
+.form-checkbox{
+    border-top: 3px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-checkbox{
+    margin: 20px 0;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.span-checkbox{
+    font-size: 1.2rem;
+}
+
+.form-textarea{
+    border-top: 3px solid gray;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+#comentarios{
+    border: 1px solid white;
+}
+.form-submit{
+    text-align: center;
+    border-top: 3px solid gray;
+
+}
+.submit-button{
+    margin: 40px 0;
+    width: 40%;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid black;
+
+}

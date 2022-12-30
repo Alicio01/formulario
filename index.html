@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulário de pesquisa do freeCodeCamp</title>
+</head>
+
+<body>
+<!-- CABEÇALHO -->
+    <div class="container">
+       
+        <header class="header">
+            <h1 id="title">Formulário de pesquisa do freeCodeCamp</h1>
+            <p id="description">Obrigado por nos ajudar a melhorar a plataforma</p>
+        </header>
+
+<!-- FORMULÁRIO -->
+        <form action="#" id="survey-form">
+            <div id="input-texto">
+                <div class="form-group">
+                    <label for="name" id="name-label"> Nome
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label"> E-mail
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" required>
+                    </label>
+                </div>
+                <div class="form-group" >
+                    <label for="number" id="number-label"> Idade
+                        <input type="number" id="idade"min="12" max="120" placeholder="Sua idade" required>
+                    </label>
+                </div>
+            </div>
+            <div class="form-select">
+                <p class="p-formulario">Qual opção descreve melhor sua função atual?</p>
+                <select name="role" id="dropdown" required>
+                    <option class="options" value="">Selecionar função atual</option>
+                    <option class="options" value="student">Aluno</option>
+                    <option class="options" value="job">Trabalho em tempo integral</option>
+                    <option class="options" value="learner">Aluno em período integral</option>
+                    <option class="options" value="preferNo">Prefino não dizer</option>
+                    <option class="options" value="other">Outros</option>
+                </select>
+            </div>
+            <div class="form-radio">
+                <p class="p-formulario">Você recomendaria freeCodeCamp a um amigo?</p>
+                <label>
+                    <input type="radio" name="user-recommended" value="definitivamente" class="input-radio" checked>  <span class="radio-descricao">Definitivamente </span> <br>
+                </label>
+                <label for=""> 
+                    <input type="radio" name="user-recommended" value="talvez" class="input-radio"  > <span class="radio-descricao">Talvez</span><br>
+                </label>
+                <label for=""> 
+                    <input type="radio" name="user-recommended" value="nao-tenho-certeza" class="input-radio"> <span class="radio-descricao">Não tenho certeza</span>
+                </label>
+            </div>
+            <div class="form-checkbox">
+                <p class="p-formulario">O que você gostaria que fosse melhorado? ( Verifique todas as opções aplicáveis )</p>
+                <label for=""> 
+                    <input type="checkbox" value="projetos-front-end" name="prefer" class="input-checkbox">
+                    <span class="span-checkbox">Projetos Front-end</span> <br> </label>
+                <label for="">
+                    <input type="checkbox" value="projetos-back-end" name="prefer" class="input-checkbox">
+                <span class="span-checkbox">Projetos Back-end</span><br></label>
+                <label for="">
+                    <input type="checkbox" value="desafios" name="prefer" class="input-checkbox">
+                <span class="span-checkbox">Desafios</span></label>
+            </div>
+            <div class="form-textarea">
+                <p class="p-formulario">Algum comentário ou sugestão?</p>
+                <textarea name="comentarios" id="comentarios" class="input-textarea" cols="50" rows="10" placeholder="Digite seu comentário aqui!"></textarea>
+            </div>
+            <div class="form-submit">
+                <button type="submit" name="submit" class="submit-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
